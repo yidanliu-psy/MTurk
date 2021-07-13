@@ -1,0 +1,189 @@
+*settings
+	*back: no
+	*menu: no
+
+--light blue	01abe9
+--dark blue	105bac
+--green	91e714
+--deep pink	ef01af
+--red	e7011e
+--yellow	fcc216
+
+*page
+	*html
+		<head><style>body{text-align:center;}.total{color:transparent;}.text{font-size:40px;color:black;}.btn.btn-default.btn-lg.btn-block{font-size:30px;}</style></head>
+	You need to recognize whether you have listened to the sound.
+	Please click _Y(yes)_ or _N(no)_. 
+	*Higher accuracy brings more payment*.
+
+
+*repeat: 1
+	*randomize: all
+		*group
+			*html
+				<head><style>body{background-color: #01abe9;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/bWgaz.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result1
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #105bac;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/Clbis.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result2
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #91e714;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/d^gES.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result3
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color:white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/fUkEz.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result4
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color:white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/gEbem.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result5
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color:white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/h^pUz.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result6
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #ef01af;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/JESoz.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result7
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #e7011e;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/kYp^C.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result8
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #fcc216;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/nld^S.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result9
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/pUf^m.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/tlged.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result11
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}#clock_face{color: white;background-color:black;font-size:30px;}.button-group.answers.question_multiple_choice{color: white;background-color:black;font-size:40px}</style></head>
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/recognition/zldod.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 1.5 seconds
+			*question: *Have you listened to this sound?*
+				Y(yes)
+				N(no)
+				*save: result12
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds

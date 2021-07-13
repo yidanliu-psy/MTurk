@@ -1,0 +1,25 @@
+*settings
+	*back: no
+	*menu: no
+	
+
+*program: Intro
+
+
+*page
+	*html
+		<head><style>body{text-align:center;}.total{color:transparent;}.text{font-size:40px;color:black;}.btn.btn-default.btn-lg.btn-block{font-size:30px;}</style></head>
+	You are expected to complete _two tasks_. 
+	The first one is the task of *identifying colors*. 
+	The other is the task of *remembering words*. 
+	You should response as instructed.
+	
+*program: HighAttention
+
+*program: RecallLearn1
+
+*program: RecallTest1
+
+>> tr_id = "0755006d"
+*program: EndOfPsy
+

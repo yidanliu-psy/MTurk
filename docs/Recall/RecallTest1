@@ -1,0 +1,96 @@
+*settings
+	*back: no
+	*menu: no
+
+--light blue	01abe9
+--dark blue	105bac
+--green	91e714
+--deep pink	ef01af
+--red	e7011e
+--yellow	fcc216
+
+*page
+	*html
+		<head><style>body{text-align:center;}.total{color:transparent;}.text{font-size:40px;color:black;}.btn.btn-default.btn-lg.btn-block{font-size:30px;}</style></head>
+	Given the first two letters, 
+	you need to complete the full nonword as just memorized. 
+	*Higher accuracy brings more payment*.
+	
+	
+*repeat: 1
+	*randomize: all
+		*group
+			*html
+				<head><style>body{background-color: #01abe9;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}.input-group-addon{font-size:40px;}.form-control{font-size:40px;}.btn.btn-default.answer_submit.textbox{font-size:30px;}</style></head>
+				*start: yes
+				*hide: yes
+			*question: *Please fill in the blank to complete this nonword*
+				*blank
+				*before: ra
+				*save: result1
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #105bac;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}.input-group-addon{font-size:40px;}.form-control{font-size:40px;}.btn.btn-default.answer_submit.textbox{font-size:30px;}</style></head>
+				*start: yes
+				*hide: yes
+			*question: *Please fill in the blank to complete this nonword*
+				*blank
+				*before: di
+				*save: result2
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #91e714;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}.input-group-addon{font-size:40px;}.form-control{font-size:40px;}.btn.btn-default.answer_submit.textbox{font-size:30px;}</style></head>
+				*start: yes
+				*hide: yes
+			*question: *Please fill in the blank to complete this nonword*
+				*blank
+				*before: en
+				*save: result3
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color:white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}.input-group-addon{font-size:40px;}.form-control{font-size:40px;}.btn.btn-default.answer_submit.textbox{font-size:30px;}</style></head>
+				*start: yes
+				*hide: yes
+			*question: *Please fill in the blank to complete this nonword*
+				*blank
+				*before: pu
+				*save: result4
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}.input-group-addon{font-size:40px;}.form-control{font-size:40px;}.btn.btn-default.answer_submit.textbox{font-size:30px;}</style></head>
+				*start: yes
+				*hide: yes
+			*question: *Please fill in the blank to complete this nonword*
+				*blank
+				*before: be
+				*save: result5
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: white;text-align:center;}.total{color:transparent;}.prompt{font-size:50px; padding-top: 130px;}.input-group-addon{font-size:40px;}.form-control{font-size:40px;}.btn.btn-default.answer_submit.textbox{font-size:30px;}</style></head>
+				*start: yes
+				*hide: yes
+			*question: *Please fill in the blank to complete this nonword*
+				*blank
+				*before: to
+				*save: result6
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+			
+			
+			

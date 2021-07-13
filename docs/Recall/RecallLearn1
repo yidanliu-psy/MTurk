@@ -1,0 +1,96 @@
+*settings
+	*back: no
+	*menu: no
+
+--light blue	01abe9
+--dark blue	105bac
+--green	91e714
+--deep pink	ef01af
+--red	e7011e
+--yellow	fcc216
+
+*page
+	*html
+		<head><style>body{text-align:center;}.total{color:transparent;}.text{font-size:40px;color:black;}.btn.btn-default.btn-lg.btn-block{font-size:30px;}</style></head>
+	In this part, some "nonwords" (fake words. for example: /ampstick/)
+	will appear on the screen. 
+	You need to *memorize their spelling*. 
+	Each nonword will be presented for *three seconds only* and next.
+	
+*repeat: 3
+	*randomize: all	
+		*group
+			*html
+				<head><style>body{background-color: #01abe9;text-align:center;}.total{color:transparent;}.text{font-size:150px;}</style></head>
+			*ranlobe*
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/audio/ranlobe.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 3 seconds
+			*clear
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #105bac;text-align:center;}.total{color:transparent;}.text{font-size:150px;}</style></head>
+			*dintarp*
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/audio/dintarp.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 3 seconds
+			*clear
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #91e714;text-align:center;}.total{color:transparent;}.text{font-size:150px;}</style></head>
+			*endrock*
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/audio/endrock.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 3 seconds
+			*clear
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #ef01af;text-align:center;}.total{color:transparent;}.text{font-size:150px;}</style></head>
+			*pundrip*
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/audio/pundrip.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 3 seconds
+			*clear
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #e7011e;text-align:center;}.total{color:transparent;}.text{font-size:150px;}</style></head>
+			*bentoil*
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/audio/bentoil.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 3 seconds
+			*clear
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{background-color: #fcc216;text-align:center;}.total{color:transparent;}.text{font-size:150px;}</style></head>
+			*toeking*
+			*audio: https://github.com/yidanliu-psy/MTurk/blob/master/audio/toeking.wav?raw=true
+				*start: yes
+				*hide: yes
+			*wait: 3 seconds
+			*clear
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+*html
+	<head><style>body{text-align:center;}.total{color:transparent;}.btn.btn-default.btn-lg.btn-block{font-size:30px;}</style></head>
+	

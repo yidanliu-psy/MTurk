@@ -1,0 +1,349 @@
+*settings
+	*back: no
+	*menu: no
+
+--light blue	01abe9
+--dark blue	105bac
+--green	91e714
+--deep pink	ef01af
+--red	e7011e
+--yellow	fcc216
+
+*repeat: 1
+	*randomize: all
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *dark blue* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				*shuffle
+				*save: result1
+			*if: result1 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+			
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *dark blue* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				*shuffle
+				*save: result2
+			*if: result1 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *dark blue* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				*shuffle
+				*save: result3
+			*if: result1 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *light blue* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				*shuffle
+				*save: result4
+			*if: result4 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *light blue* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				*shuffle
+				*save: result5
+			*if: result5 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *light blue* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				*shuffle
+				*save: result6
+			*if: result6 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *green* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				*shuffle
+				*save: result7
+			*if: result7 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *green* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				*shuffle
+				*save: result8
+			*if: result8 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *green* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				*shuffle
+				*save: result9
+			*if: result9 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *red* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				*shuffle
+				*save: result10
+			*if: result10 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *red* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				*shuffle
+				*save: result11
+			*if: result11 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *red* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				*shuffle
+				*save: result12
+			*if: result12 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *deep pink* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				*shuffle
+				*save: result13
+			*if: result13 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *deep pink* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				*shuffle
+				*save: result14
+			*if: result14 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *deep pink* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				*shuffle
+				*save: result15
+			*if: result15 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *yellow* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/red.jpg?raw=true
+				*shuffle
+				*save: result16
+			*if: result16 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *yellow* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/light_blue.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/green.jpg?raw=true
+				*shuffle
+				*save: result17
+			*if: result17 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+		*group
+			*html
+				<head><style>body{text-align:center;}.main{background: transparent;vertical-align:middle;}.total{color:transparent;}.prompt{font-size:50px;}#clock_face{color: white;background-color:black;font-size:30px;}.answers-grid.button-group.answers.question_picture{color:transparent;font-size:1px}</style></head>
+			*question: Please click the *yellow* one 
+				*countdown: 5.seconds
+				A
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/yellow.jpg?raw=true
+				B
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/deep_pink.jpg?raw=true
+				C
+					*picture: https://github.com/yidanliu-psy/MTurk/blob/master/color/dark_blue.jpg?raw=true
+				*shuffle
+				*save: result18
+			*if: result18 = "A"
+				*points: 10
+			*html
+				<head><style>.total{color:transparent;}.change.positive{color:transparent;}</style></head>
+			*wait: 1 seconds
+			
+
+
+
+
+*if: points < 160
+	Sorry, but you fail to click all the color bars correctly.
+	Your HIT has been terminated.
+	*wait: 5 seconds
+	*quit
+		

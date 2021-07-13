@@ -1,0 +1,22 @@
+*settings
+	*back: no
+	*menu: no
+	
+
+*program: Intro
+
+
+*page
+	*html
+		<head><style>body{text-align:center;}.total{color:transparent;}.text{font-size:40px;color:black;}.btn.btn-default.btn-lg.btn-block{font-size:30px;}</style></head>
+	You are expected to complete a memory task ( _2 parts_ ). 
+	You should response as instructed.
+	
+
+*program: RecognitionLearn1
+
+*program: RecognitionTest3
+
+>> tr_id = "0755006d"
+*program: EndOfPsy
+

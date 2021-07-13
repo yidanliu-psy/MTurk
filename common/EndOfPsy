@@ -1,0 +1,37 @@
+>> tr_id = "fb235c89"
+-->> gif = "https://media1.tenor.com/images/9dac8192b4b475477730e2e00bbcabef/tenor.gif?itemid=5027655"
+-->> url_params = "&thing=1"
+>> finished = 1
+
+
+
+*html
+	<head><style>body{text-align:center;}.main{vertical-align:middle;}.total{color:transparent;}.btn.btn-default.btn-lg.btn-block{font-size:50px;}h3{font-size:80px;color:LightBlue;}</style></head>
+*points: 100
+*header: Thank you!
+
+*if: gif
+	*image: {gif}
+
+*if: not project_id
+	*if: tr_id
+		>> project_id = tr_id
+	*if: not tr_id
+		>> project_id = "test"
+
+*if: url_params
+	>> url = "https://app.positly.com/#/f?task_id={project_id}{url_params}"
+*if: not url_params
+	>> url = "https://app.positly.com/#/f?task_id={project_id}"
+
+*if: source
+	*if: study_slug
+		>> url = "https://www.positly.com/studies/{study_slug}/?finished=1&participant_id={participant_id}&assignment_id={assignment_id}&study_slug={study_slug}&project_id={project_id}"
+	*if: source = "cint"
+		>> url = "https://s.cint.com/Survey/Complete?ProjectToken={project_id}"
+
+*button: Click to finish & get your code for validation!
+Hang on while we redirect you... please be patient :) 
+*wait: data
+
+*goto: {url}
