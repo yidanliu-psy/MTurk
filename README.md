@@ -16,8 +16,17 @@ In this process, I overcome some difficulties which I believe to be quite common
 2. To hack the template of original _guidedtrack_, we use customized css globally and locally (within the ```*html``` entries of corresponding _guidedtrack_ code)
 3. [Positly](https://positly.com) has a native support for  _guidedtrack_(assignment & validation & payment), so we use it as our backend platform
 
+## Demo
+- *Recognition* focused (2 groups × 4 setups)
+  - High: [[1]](https://yidanliu-psy.github.io/MTurk/Recognition/High/1/) [[2]](https://yidanliu-psy.github.io/MTurk/Recognition/High/2/) [[3]](https://yidanliu-psy.github.io/MTurk/Recognition/High/3/) [[4]](https://yidanliu-psy.github.io/MTurk/Recognition/High/4/)
+  - Low:  [[1]](https://yidanliu-psy.github.io/MTurk/Recognition/Low/1/) [[2]](https://yidanliu-psy.github.io/MTurk/Recognition/Low/2/) [[3]](https://yidanliu-psy.github.io/MTurk/Recognition/Low/3/) [[4]](https://yidanliu-psy.github.io/MTurk/Recognition/Low/4/)
+- *Recall* focused (2 groups × 2 setups)
+  - High: [[1]](https://yidanliu-psy.github.io/MTurk/Recall/High/1/) [[2]](https://yidanliu-psy.github.io/MTurk/Recall/High/2/)
+  - Low: [[1]](https://yidanliu-psy.github.io/MTurk/Recall/Low/1/) [[2]](https://yidanliu-psy.github.io/MTurk/Recall/Low/2/)
+
+
 ## Code
-- ```audio/``` ```color/``` ```recognition```:  dependent media files
+- ```audio/```, ```color/```, and ```recognition```:  media file dependencies
 - ```common/```: _guidedtrack_ code for various experimental settings
 - ```docs/```: web apps
   - ```new.css```: our customized css file
