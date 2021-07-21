@@ -17,6 +17,8 @@ In this process, I overcome some difficulties which I believe to be quite common
 3. [Positly](https://positly.com) has a native support for  _guidedtrack_(assignment & validation & payment), so we use it as our backend platform
 
 ## Demo
+> As I have collected enough results, all experiments are disabled by default. If this case does occur, please **manually refresh the page once** to enable the demo
+
 > VPN might be needed for China (mainland) users
 - *Recognition* focused (2 attention levels × 4 setups)
   - High: [[1]](https://yidanliu-psy.github.io/MTurk/Recognition/High/1/) [[2]](https://yidanliu-psy.github.io/MTurk/Recognition/High/2/) [[3]](https://yidanliu-psy.github.io/MTurk/Recognition/High/3/) [[4]](https://yidanliu-psy.github.io/MTurk/Recognition/High/4/)
