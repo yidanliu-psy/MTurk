@@ -26,7 +26,7 @@ In this process, I overcome some difficulties which I believe to be quite common
   - Low: [[1]](https://yidanliu-psy.github.io/MTurk/Recall/Low/1/) [[2]](https://yidanliu-psy.github.io/MTurk/Recall/Low/2/)
 
 
-## Code
+## Project structure
 - ```audio/```, ```color/```, and ```recognition```:  media file dependencies
 - ```common/```: _guidedtrack_ code for various experimental settings
 - ```docs/```: web apps
